@@ -21,6 +21,7 @@ using System.Xml;
 
 using ICSharpCode.AvalonEdit.Highlighting.Xshd;
 using ICSharpCode.AvalonEdit.Highlighting;
+using System.Windows.Media;
 
 namespace Xabbo.Scripter.View
 {
@@ -503,7 +504,7 @@ namespace Xabbo.Scripter.View
 
             codeEditor.Initialize(
                 Script.Engine.RoslynHost,
-                new ClassificationHighlightColors(),
+                new Dark2ClassificationHighlightColors(),
                 Path.GetFullPath("Scripts"),
                 string.Empty
             );
