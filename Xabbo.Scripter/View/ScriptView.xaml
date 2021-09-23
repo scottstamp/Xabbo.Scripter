@@ -36,7 +36,7 @@
                     SyntaxHighlighting="C#"
                     ShowLineNumbers="True"
                     Background="#150015"
-                    Foreground="White"
+                    Foreground="#DCDCDC"
                     FontFamily="Fira Code,Hack,Consolas" FontSize="9pt"
                     HorizontalScrollBarVisibility="Auto"
                     IsReadOnly="{Binding IsRunning}"
