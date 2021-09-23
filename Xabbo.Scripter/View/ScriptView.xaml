@@ -56,7 +56,7 @@
                             <Setter Property="Opacity" Value="0" />
                             <Style.Triggers>
                                 <DataTrigger Binding="{Binding IsRunning}" Value="True">
-                                    <Setter Property="Opacity" Value="0.5" />
+                                    <Setter Property="Opacity" Value="0.3" />
                                 </DataTrigger>
                             </Style.Triggers>
                         </Style>
