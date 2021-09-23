@@ -148,7 +148,4 @@
 			([eE][+-]?[0-9]+)? # optional exponent
 		</Rule>
 	</RuleSet>
-	
-	<Color name="Default" foreground="#c9d1d9" />
-	<Color name="DefaultBrush" foreground="#c9d1d9" />
 </SyntaxDefinition>
